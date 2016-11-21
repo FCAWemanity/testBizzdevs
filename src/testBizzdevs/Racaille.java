@@ -1,15 +1,9 @@
 package testBizzdevs;
 
-public class Racaille implements IPersonne{
-	
-	private String nom; 
-	private String prenom; 
-	private int age; 
+public class Racaille extends Personne implements IPersonne{ 
 	
 	public Racaille(String nom, String prenom, int age){
-		this.nom = nom; 
-		this.prenom = prenom; 
-		this.age = age; 
+		super(nom, prenom, age);
 	}
 	
 	@Override

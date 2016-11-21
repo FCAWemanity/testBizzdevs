@@ -1,15 +1,9 @@
 package testBizzdevs;
 
-public class Gentleman implements IPersonne {
-
-	private String nom; 
-	private String prenom; 
-	private int age; 
+public class Gentleman extends Personne implements IPersonne {
 	
 	public Gentleman(String nom, String prenom, int age){
-		this.nom = nom; 
-		this.prenom = prenom; 
-		this.age = age; 
+		super(nom, prenom, age);
 	}
 	
 	@Override
