@@ -29,15 +29,15 @@ public abstract class Personne{
 		IPersonne gentleman = new Gentleman("Clooney", "Georges", 42); 
 		
 		System.out.println("Affichage d'une personne gentleman : ");
-		gentleman.Bonjour();
-		gentleman.Seduire();
-		gentleman.AuRevoir();
+		System.out.println(gentleman.Bonjour());
+		System.out.println(gentleman.Seduire());
+		System.out.println(gentleman.AuRevoir());
 		
 		System.out.println();
 		System.out.println("Affichage d'une personne racaille : ");
-		racaille.Bonjour(); 
-		racaille.Seduire(); 
-		racaille.AuRevoir();
+		System.out.println(racaille.Bonjour()); 
+		System.out.println(racaille.Seduire()); 
+		System.out.println(racaille.AuRevoir());
 	}
 	
 }

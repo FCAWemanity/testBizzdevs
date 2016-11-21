@@ -7,18 +7,18 @@ public class Gentleman extends Personne implements IPersonne {
 	}
 	
 	@Override
-	public void Bonjour() {
-		System.out.println("Bonjour, je m'appelle " + GetPrenom() + " " + GetNom() + " et j'ai " + GetAge() + " ans.");		
+	public String Bonjour() {
+		return "Bonjour, je m'appelle " + GetPrenom() + " " + GetNom() + " et j'ai " + GetAge() + " ans.";		
 	}
 
 	@Override
-	public void AuRevoir() {
-		System.out.println("Au plaisir de vous revoir :-).");
+	public String AuRevoir() {
+		return "Au plaisir de vous revoir :-).";
 	}
 
 	@Override
-	public void Seduire() {
-		System.out.println("Vos yeux sont tels des étoiles illuminant cette soirée.");		
+	public String Seduire() {
+		return "Vos yeux sont tels des étoiles illuminant cette soirée.";		
 	}
 
 }

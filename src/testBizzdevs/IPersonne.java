@@ -2,8 +2,8 @@ package testBizzdevs;
 
 public interface IPersonne {
 	
-	public void Bonjour();
-	public void AuRevoir();
-	public void Seduire();
+	public String Bonjour();
+	public String AuRevoir();
+	public String Seduire();
 	
 }

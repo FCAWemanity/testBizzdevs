@@ -7,18 +7,18 @@ public class Racaille extends Personne implements IPersonne{
 	}
 	
 	@Override
-	public void Bonjour() {
-		System.out.println("Wesh magl, mon tag c " + GetPrenom() + " " + GetNom() +". J'ai " + GetAge() + " piges tmtc");
+	public String Bonjour() {
+		return "Wesh magl, mon tag c " + GetPrenom() + " " + GetNom() +". J'ai " + GetAge() + " piges tmtc";
 	}
 
 	@Override
-	public void AuRevoir() {
-		System.out.println("Ça fait plaiz la mifa d't'avoir vu, sisi à toutes ma gueule");		
+	public String AuRevoir() {
+		return "Ça fait plaiz la mifa d't'avoir vu, sisi à toutes ma gueule";		
 	}
 
 	@Override
-	public void Seduire() {
-		System.out.println("Ton père c'est un voleur mamzelle, il a pris les étoiles et il les a mises dans tes yeux wesh.");		
+	public String Seduire() {
+		return "Ton père c'est un voleur mamzelle, il a pris les étoiles et il les a mises dans tes yeux wesh.";		
 	}
 
 }
