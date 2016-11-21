@@ -8,7 +8,7 @@ public class Gentleman extends Personne implements IPersonne {
 	
 	@Override
 	public void Bonjour() {
-		System.out.println("Bonjour, je m'appelle " + prenom + " " + nom + " et j'ai " + age + " ans.");		
+		System.out.println("Bonjour, je m'appelle " + GetPrenom() + " " + GetNom() + " et j'ai " + GetAge() + " ans.");		
 	}
 
 	@Override

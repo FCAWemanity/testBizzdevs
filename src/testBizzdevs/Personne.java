@@ -2,9 +2,21 @@ package testBizzdevs;
 
 public abstract class Personne{
 
-	protected String nom; 
-	protected String prenom; 
-	protected int age; 
+	private String nom; 
+	private String prenom; 
+	private int age; 
+	
+	public String GetNom(){
+		return nom;
+	}
+	
+	public String GetPrenom(){
+		return prenom; 
+	}
+	
+	public int GetAge(){
+		return age;
+	}
 	
 	public Personne(String nom, String prenom, int age){
 		this.nom = nom; 

@@ -8,7 +8,7 @@ public class Racaille extends Personne implements IPersonne{
 	
 	@Override
 	public void Bonjour() {
-		System.out.println("Wesh magl, mon tag c " + prenom + " " + nom +". J'ai " + age + " piges tmtc");
+		System.out.println("Wesh magl, mon tag c " + GetPrenom() + " " + GetNom() +". J'ai " + GetAge() + " piges tmtc");
 	}
 
 	@Override
