@@ -1,6 +1,6 @@
 package testBizzdevs;
 
-public class Personne {
+public class Personne implements IPersonne {
 	private String nom; 
 	private String prenom; 
 	private int age; 
@@ -45,8 +45,8 @@ public class Personne {
 	}
 
 	public static void main(String[] argv){
-		Personne racaille = new Personne("Dupuis", "Kévin", 15); 
-		Personne gentleman = new Personne("Clooney", "Georges", 42); 
+		IPersonne racaille = new Personne("Dupuis", "Kévin", 15); 
+		IPersonne gentleman = new Personne("Clooney", "Georges", 42); 
 		
 		System.out.println("Affichage d'une personne gentleman : ");
 		gentleman.Bonjour();
